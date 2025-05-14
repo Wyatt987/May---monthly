@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () =>  {
         grid.innerHTML = ''
         list.forEach(p => {
             const col = document.createElement('div')
-            col.className = 'col-6 col-lg-2'
+            col.className = 'col-6 col-lg-4 py-2'
 
             col.innerHTML = 
             `
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () =>  {
                     <img src="${p.photo}" alt="${p.firstName} ${p.lastName}" class="card-img-top">
                     <div class="card-body text-center">
                         <h5 class="card-title mv-1">${p.firstName} ${p.lastName}</h5>
-                        <div class="badge badge-position badge-pos-${p.position}">${p.position}</div>
+                        <div class="badge badge-position text-dark badge-pos-${p.position}">${p.position}</div>
                         <p class="small text-muted mb-0">Age ${p.age}</p>
                     </div>
                  </div>
