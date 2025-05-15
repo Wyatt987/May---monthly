@@ -16,57 +16,35 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="landing.css">
         <link rel="icon" type="image/png" href="images/favicon.png" />
     </head>
 
     <body>
-        
-        <div class="container">
-            <div class="row text-dark-blue rounded p-2 mt-5">
-                <div class="col-2">
-                    <img src="imgs/image-removebg-preview.png" id="logo">
+<main>
+    <div class="d-flex flex-column justify-content-center align-items-center vh-100">
+        <div class="d-flex justify-content-between align-items-center w-75">
+            <a href="About.html" class="image-link">
+                <div class="image-container">
+                    <img class="sizing" src="https://www.totalprosports.com/wp-content/uploads/2023/04/GettyImages-1475417097-1-1024x563.jpg" alt="About">
+                    <div class="overlay-text bg-dark bg-opacity-25 text-center">About</div>
                 </div>
-                <div class="col-2">
-                    <h3 class="text-white text-center">Presented by B&B Productions</h3>
+            </a>
+            <a href="roster.html" class="image-link">
+                <div class="image-container">
+                    <img class="sizing" src="https://fadeawayworld.net/.image/t_share/MjA5NjA2OTU1MDEyOTkwMzk0/460922659_420039944062304_5686083424340951511_n.jpg" alt="Roster">
+                    <div class="overlay-text bg-dark bg-opacity-25 text-center">Roster</div>
                 </div>
-                <div class="col-2">
-                    <h1 class="text-white text-center">Team</h1>
-                </div>
-                <div class="col-2">
-                    <h1 class="text-white text-center">Playoffs</h1>
-                </div>
-         </div>
+            </a>
         </div>
-        <header>
-            <div class="row d-flex">
-                <div class="col-5"></div>
-                <div class="col-2 p-5 text-center">
-                    <h1 class="text-dark-blue bg-light bg-opacity-50 rounded fs-1">New York</h1>
-                </div>
-                <div class="col-5"></div>
-            </div>
-        </header>
-        <div class="container">
-            <div class="row pt-5 mt-5">
-                <div class="col-2">
-                  <h1 class="text-center text-dark-blue bg-light bg-opacity-50 rounded">Roster</h1>
-              </div>
-              <div class="col-1"></div>
-            <div class="col-6"></div>
-            <div class="col-3">
-                <div class="btn btn-primary" id="addPlayerBtn">
-                      <h1>PlaceHolder</h1>
-               </div>
-          </div>
-         </div>
+        <div class="record-text mt-4 bg-dark bg-opacity-25 rounded">
+            <p>Pre-season Record: 4-0</p>
+            <p>Season Record: 50-32</p>
+            <p>Post-season: Reached Eastern Conference Finals</p>
         </div>
-       
-        <main class="container">
-            <div id="rosterGrid" class="row g-3">
-                
-            </div>
-        </main>
+    </div>
+</main>
+
         <footer>
             <!-- place footer here -->
         </footer>
@@ -82,8 +60,6 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
-        <script src="players.js"></script>
-        <script src="roster.js"></script>
     </body>
 </html>
 
