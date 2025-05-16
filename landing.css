@@ -18,6 +18,15 @@ body {
     animation: pop-in 1s forwards ease-out;
 }
 
+#sizing {
+    transition: transform 0.3s ease-in-out;
+}
+
+#sizing:hover {
+    transform: scale(1.05);
+}
+
+
 .image-link {
     position: relative;
     text-decoration: none;
@@ -36,9 +45,6 @@ body {
     animation: pop-in-text 1s forwards ease-out 0.3s;
 }
 
-.sizing:hover {
-    transform: scale(1.1);
-}
 
 .image-container {
     position: relative;
