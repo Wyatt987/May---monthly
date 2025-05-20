@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+.hero-section {
+  background-image: url('imgs/brunson-game-winning-3.webp');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  
+}
+
+.player-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  font-weight: bold;
+}
+#logo {
+  height: 100px;
+  width: 140px;
+}
+.navbar {
+  background-color: #003DA5;
+  padding: 1rem 0;
+  justify-content: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+#players {
+    background-color: #003DA5;
+}
