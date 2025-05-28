@@ -5,6 +5,7 @@ const players = [
     position: 'PG',
     age: 28,
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3934672.png&w=350&h=254',
+    detail: 'Son of former NBA player Rick Brunson and known for his clutch plays in the playoffs.',
   },
   {
     firstName: 'Mikal',
@@ -12,6 +13,7 @@ const players = [
     position: 'SF',
     age: 28,
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3147657.png',
+    detail: 'Famous for his defensive skills and once played every minute of a playoff game.',
   },
   {
     firstName: 'Karl-Anthony',
@@ -19,6 +21,7 @@ const players = [
     position: 'C',
     age: 29,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1626157.png',
+    detail: 'Known for his three-point shooting ability as a center, a rare skill at his position.',
   },
   {
     firstName: 'Mitchell',
@@ -26,6 +29,7 @@ const players = [
     position: 'C',
     age: 26,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1629011.png',
+    detail: 'Has a background in track and field, which contributes to his incredible athleticism.',
   },
   {
     firstName: 'OG',
@@ -33,6 +37,7 @@ const players = [
     position: 'SF',
     age: 27,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png',
+    detail: 'Known for his lockdown defense and improving three-point shooting every season.',
   },
   {
     firstName: 'Miles',
@@ -40,6 +45,7 @@ const players = [
     position: 'PG',
     age: 24,
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4431823.png',
+    detail: 'Recognized for his high basketball IQ and gritty defensive style.',
   },
   {
     firstName: 'Josh',
@@ -47,6 +53,7 @@ const players = [
     position: 'SG',
     age: 29,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1628404.png',
+    detail: 'Has a reputation for his hustle and energy off the bench.',
   },
   {
     firstName: 'Anton',
@@ -54,6 +61,7 @@ const players = [
     position: 'PF',
     age: 24,
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4431705.png&w=350&h=254',
+    detail: 'Known for his versatility and ability to guard multiple positions.',
   },
   {
     firstName: 'Precious',
@@ -61,6 +69,7 @@ const players = [
     position: 'PF',
     age: 25,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png',
+    detail: 'Started his college career as a guard before transitioning to forward/center.',
   },
   {
     firstName: 'Cameron',
@@ -68,6 +77,7 @@ const players = [
     position: 'PG',
     age: 30,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1626166.png',
+    detail: 'Known for his speed and playmaking off the bench.',
   },
   {
     firstName: 'Landry',
@@ -75,6 +85,7 @@ const players = [
     position: 'SG',
     age: 27,
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3914044.png',
+    detail: 'Noted for his shooting accuracy, especially from three-point range.',
   },
   {
     firstName: 'Tyler',
@@ -82,6 +93,7 @@ const players = [
     position: 'PG',
     age: 23,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1642278.png',
+    detail: 'Highly regarded for his passing ability and court vision.',
   },
   {
     firstName: 'Delon',
@@ -89,6 +101,7 @@ const players = [
     position: 'SG',
     age: 32,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1626153.png',
+    detail: 'Known for his defense and versatility to play multiple guard positions.',
   },
   {
     firstName: 'Ariel',
@@ -96,6 +109,7 @@ const players = [
     position: 'C',
     age: 22,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1630574.png',
+    detail: 'One of the youngest players, coming from a strong international basketball background.',
   },
   {
     firstName: 'Jericho',
@@ -103,6 +117,7 @@ const players = [
     position: 'C',
     age: 26,
     photo: 'https://media.bleacherreport.com/image/upload/x_0,y_101,w_1799,h_1198,c_crop/w_800,h_533,c_fill/v1736814808/rc9zblyvsea5ju1mzfww.jpg',
+    detail: 'Known for his physical play and rebounding skills.',
   },
   {
     firstName: 'Pacome',
@@ -110,6 +125,7 @@ const players = [
     position: 'PG',
     age: 19,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1642359.png',
+    detail: 'One of the youngest players in the league, known for his quickness.',
   },
   {
     firstName: 'Matt',
@@ -117,6 +133,7 @@ const players = [
     position: 'SF',
     age: 27,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1630346.png',
+    detail: 'Has a strong shooting touch and ability to stretch the floor.',
   },
   {
     firstName: 'Jacob',
@@ -124,6 +141,7 @@ const players = [
     position: 'SF',
     age: 24,
     photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1631210.png',
+    detail: 'Known for his athleticism and energy on defense.',
   },
   {
     firstName: 'Kevin',
@@ -131,6 +149,7 @@ const players = [
     position: 'SF',
     age: 23,
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4411057.png&w=350&h=254',
+    detail: 'Has a reputation for being a tough defender and good rebounder.',
   },
   {
     firstName: 'MarJon',
@@ -138,5 +157,6 @@ const players = [
     position: 'SF',
     age: 24,
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4432179.png&w=350&h=254',
+    detail: 'Known for his versatility and improving offensive skills.',
   },
 ];
