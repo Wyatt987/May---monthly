@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () =>  {
         </div>
         <div class="popup d-none p-2 d-flex justify-content-center align-items-center bg-dark bg-opacity-25 position-absolute top-0 start-0 w-100 h-100">
             <p class="outlinedText">${p.detail}</p>
-            <button class="btn btn-secondary btn-sm ms-2" onclick="closePopup(this.closest('.card'))">Close</button>
+            <p><button class="btn btn-secondary btn-sm ms-2" onclick="closePopup(this.closest('.card'))">Close</button></p>
         </div>
     </div>
     `
