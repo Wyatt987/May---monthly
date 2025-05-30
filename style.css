@@ -57,7 +57,20 @@ body {
 .nav-links li a:hover {
   text-decoration: underline;
 }
-.blur {
-  filter: blur(5px);
+
+
+.card.blur .card-blur-content {
+    filter: blur(2px);
+    pointer-events: none; 
 }
 
+.popup {
+  z-index: 10;
+}
+.outlinedText {
+  text-shadow:
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}

@@ -62,3 +62,73 @@ h2 {
   height: 200px;
   width: 240px;
 }
+
+.hero-popup {
+  transform: translateY(-50%);
+  padding: 1rem 1.5rem;
+  background: rgba(255,255,255,0.95);
+  color: #0d2a4a;
+  border-radius: 2rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+  text-decoration: none;
+  z-index: 10;
+  border: 2px solid #f9b233;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  animation: flyInFromRight 0.5s ease-out;
+  opacity: 0;
+}
+
+.hero-popup:hover {
+  background: #f9b233;
+  color: #fff;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
+.hero-popup-left {
+  left: 2%;
+}
+.hero-popup-right {
+  right: 2%;
+}
+.hero-popup-left {
+  animation: flyInFromLeft 0.7s 1s forwards;
+}
+.hero-popup-right {
+  animation: flyInFromRight 0.7s 1s forwards;
+}
+@keyframes flyInFromRight {
+  from {
+    transform: translateY(-50%) translateX(120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(-50%) translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flyInFromLeft {
+  from {
+    transform: translateX(-50%) translateX(-120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-50%) translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+.dero-section {
+  transform: scale(0.7);
+  opacity: 0.2;
+  animation: heroExpand 1s 0.2s forwards;
+  overflow: visible;
+}
+@keyframes heroExpand {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
