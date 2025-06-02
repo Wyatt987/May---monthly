@@ -1,3 +1,4 @@
+/* bg */
 body {
   background-image: url(imgs/New-York-Knicks-wallpaper-logo-desktop-NBA-2024-2025.png);
   background-repeat: no-repeat;
@@ -64,6 +65,7 @@ body {
     pointer-events: none; 
 }
 
+/*pop up design */
 .popup {
   z-index: 10;
 }

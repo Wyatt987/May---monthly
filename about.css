@@ -3,7 +3,7 @@ body {
   background-color: #f4f4f4;
   color: #222;
 }
-
+/* first bg */
 .hero-section {
   background-image: url('imgs/brunson-game-winning-3.webp');
   background-size: cover;

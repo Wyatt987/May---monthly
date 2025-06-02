@@ -45,9 +45,10 @@ function toggleBlur(card) {
     popup.classList.toggle('d-none'); 
 }
 
+//Close pop up button
 function closePopup(card) {
     card.classList.remove('blur');
-    const popup = card.querySelector('.popup');
+    const popup = card.querySelector('.popup'); 
     popup.classList.add('d-none');
 }
 
